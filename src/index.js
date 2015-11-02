@@ -1,2 +1,2 @@
 require('./dist/proteo.ui.filter-contact-directive');
-module.exports = 'filterContact';
+module.exports = 'proteo.ui.filter';

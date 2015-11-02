@@ -1,7 +1,7 @@
 {
   "name": "proteo.ui.filter-contact",
   "version": "0.0.1",
-  "main": "./src/proteo.ui.filter-contact-directive.js",
+  "main": "./dist/proteo.ui.filter-contact-directive.js",
   "ignore": [],
   "dependencies": {
   },
