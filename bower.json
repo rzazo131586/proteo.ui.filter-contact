@@ -11,5 +11,6 @@
   "devDependencies": {
   },
   "ignore": [
+    ".sass-cache"
   ]
 }
