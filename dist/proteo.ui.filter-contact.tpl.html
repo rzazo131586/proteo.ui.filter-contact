@@ -1,0 +1,17 @@
+<div>
+	<h4>{{datatitle | uppercase}}</h4>
+	<div id="filterContact">
+		<form action="" method="get" accept-charset="utf-8">
+			<label>
+	            <input type="text" name="name" ng-model="filter.name" required>
+			</label>
+			<label>
+	            <input type="text" name="lastname" ng-model="filter.lastname" required>
+			</label>
+			<label>
+	            <input type="text" name="corporate" ng-model="filter.corporate" required>
+			</label>
+			<button type="button" onclick="searchContact()"></button>
+		</form>
+	</div>
+</div>
