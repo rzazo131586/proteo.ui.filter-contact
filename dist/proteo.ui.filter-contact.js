@@ -15,12 +15,12 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 			"filterCallBack": "="
 		},
 		templateUrl: './bower_components/proteo.ui.filter-contact/src/proteo.ui.filter-contact.tpl.html'
-	},
-	link: function($scope){
-		$scope.somethingHappend = function(){
-       		$scope.filterCallBack($scope.filter);
- 		}
-	};
+		link: function($scope){
+			$scope.somethingHappend = function(){
+	       		$scope.filterCallBack($scope.filter);
+	 		}
+		}
+	}
 });
 angular.module("proteo.ui.filter-contact", []).filter('searchContact-filter', function(){
 
