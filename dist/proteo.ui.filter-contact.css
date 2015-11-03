@@ -9,3 +9,6 @@
   -webkit-flex-direction: column;
   flex-direction: column;
 }
+.filter-form button {
+  margin-top: 1em;
+}
