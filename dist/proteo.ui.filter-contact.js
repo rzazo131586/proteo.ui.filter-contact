@@ -7,7 +7,7 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 		$scope.validateForm = function() {
 			console.log("Validate");
 			console.log("Validate >> "+JSON.stringify($scope.filter));
-		}
+		};
 
 }).directive("filterContact", function() {
 
@@ -21,7 +21,7 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 		controller : 'filterContactCtrl',
 		templateUrl: './bower_components/proteo.ui.filter-contact/src/proteo.ui.filter-contact.tpl.html'
 	};
-	
+
 });
 angular.module("proteo.ui.filter-contact", []).filter('searchContact-filter', function(){
 
