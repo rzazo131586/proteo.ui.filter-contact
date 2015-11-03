@@ -7,7 +7,7 @@ module.exports = 'proteo.ui.filter';
 
 });*/
 
-angular.directive("filterContact", function() {
+angular.module("proteo.ui.filter-contact", []).directive("filterContact", function() {
 
 	console.log("that is of Directive Filter");
 	return {
