@@ -11,9 +11,5 @@
   "devDependencies": {
   },
   "ignore": [
-    "node_modules",
-    "src",
-    "test",
-    ".sass-cache"
   ]
 }
