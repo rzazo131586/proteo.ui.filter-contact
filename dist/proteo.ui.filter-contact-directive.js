@@ -1,8 +1,9 @@
-angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
+angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope, $element) {
 		console.log("that is of Controller of Filter");
 		
 		$scope.filter={};
 		$scope.searchContact = function(){
+			console.log("$scope.filter Called");
 			console.log("$scope.filter > "+$scope.filter);
 		}
 
