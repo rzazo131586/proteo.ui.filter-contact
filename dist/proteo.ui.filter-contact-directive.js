@@ -5,7 +5,7 @@
 
 });*/
 
-angular.module.directive("filterContact", function() {
+angular.directive("filterContact", function() {
 
 	console.log("that is of Directive Filter");
 	return {
