@@ -2,7 +2,7 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 		console.log("that is of Controller of Filter");
 		
 		$scope.filter={};
-		$scope.searchContact = function(){
+		$scope.userCallback = function(){
 			console.log("$scope.filter Called");
 			console.log("$scope.filter > "+$scope.filter);
 		}
@@ -12,6 +12,9 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 
 	return {
 		restrict: "AE",
+		scope 	: {
+			"userCallback" : "="
+		}
 		controller : 'filterContactCtrl',
 		templateUrl: './bower_components/proteo.ui.filter-contact/src/proteo.ui.filter-contact.tpl.html'
 	};
