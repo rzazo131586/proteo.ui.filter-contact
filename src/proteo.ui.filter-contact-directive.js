@@ -29,3 +29,5 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 	}
 
 });
+
+// $scope.gridOptions.api.refreshView()
