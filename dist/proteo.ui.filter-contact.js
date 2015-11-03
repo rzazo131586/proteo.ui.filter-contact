@@ -14,7 +14,7 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 		scope: {
 			"filterCallBack": "="
 		},
-		templateUrl: './bower_components/proteo.ui.filter-contact/src/proteo.ui.filter-contact.tpl.html'
+		templateUrl: './bower_components/proteo.ui.filter-contact/src/proteo.ui.filter-contact.tpl.html',
 		link: function($scope){
 			$scope.somethingHappend = function(){
 	       		$scope.filterCallBack($scope.filter);
