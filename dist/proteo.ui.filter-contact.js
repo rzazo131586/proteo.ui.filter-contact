@@ -1,13 +1,12 @@
 require('./dist/proteo.ui.filter-contact-directive');
 module.exports = 'proteo.ui.filter';
-/*angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
+angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
 
 		console.log("that is of Controller of Filter");
 		$scope.filter={};
 
-});*/
-
-angular.module("proteo.ui.filter-contact", []).directive("filterContact", function() {
+})
+.directive("filterContact", function() {
 
 	console.log("that is of Directive Filter");
 	return {
@@ -28,9 +27,9 @@ angular.module("proteo.ui.filter-contact", []).directive("filterContact", functi
 angular.module("proteo.ui.filter-contact", []).filter('searchContact-filter', function(){
 
 }){;
-angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
+/*angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
 
 		console.log("that is of Controller of Filter");
 		$scope.filter={};
 
-});
+});*/
