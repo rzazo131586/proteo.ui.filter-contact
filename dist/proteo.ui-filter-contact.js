@@ -1,4 +1,6 @@
-angular.module("proteo.ui.filter", []).controller("filterContactCtrl",  function($scope) {
+require('./dist/proteo.ui.filter-contact-directive');
+module.exports = 'proteo.ui.filter';
+angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
 		console.log("that is of Controller");
 		
 		$scope.filter={};
@@ -12,9 +14,9 @@ angular.module("proteo.ui.filter", []).controller("filterContactCtrl",  function
 		templateUrl: './bower_components/proteo.ui.filter-contact/src/proteo.ui.filter-contact.tpl.html'
 	};
 });
-angular.module("proteo.ui.search-person", []).filter('searchContact-filter', function(){
+angular.module("proteo.ui.filter-contact", []).filter('searchContact-filter', function(){
 
 }){;
-angular.module("proteo.ui.search-person", []){
+angular.module("proteo.ui.filter-contact", []){
 
 });
