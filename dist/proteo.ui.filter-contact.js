@@ -5,7 +5,7 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 		
 		$scope.filter={};
 		$scope.searchContact = function(){
-			console.log("Click");
+			console.log("Click >> "+JSON.stringify($scope.filter));
 		}
 
 }).directive("filterContact", function() {
