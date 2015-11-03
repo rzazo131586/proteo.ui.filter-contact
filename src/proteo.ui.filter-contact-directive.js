@@ -1,7 +1,10 @@
 angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
-		console.log("that is of Controller");
+		console.log("that is of Controller of Filter");
 		
 		$scope.filter={};
+		$scope.searchContact = function(){
+			console.log("$scope.filter > "+$scope.filter);
+		}
 
 }).directive("filterContact", function() {
 	console.log("that is of Directive Filter");
