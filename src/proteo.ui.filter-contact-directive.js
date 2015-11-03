@@ -15,7 +15,7 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 		restrict: "AE",
 		scope 	: {
 			userCallback : "="
-		}
+		},
 		controller : 'filterContactCtrl',
 		templateUrl: './bower_components/proteo.ui.filter-contact/src/proteo.ui.filter-contact.tpl.html'
 	};
