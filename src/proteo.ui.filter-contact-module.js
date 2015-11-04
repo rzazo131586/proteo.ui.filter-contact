@@ -1,1 +1,1 @@
-angular.module("proteo.ui.filter-contact", []);
+/* Todo Module */

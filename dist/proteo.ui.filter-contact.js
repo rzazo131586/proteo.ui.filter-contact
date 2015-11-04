@@ -1,4 +1,4 @@
-angular.module("proteo.ui.filter-contact", []);
+/* Todo Module */
 angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
 
 		console.log("that is of Controller of Filter");
@@ -30,6 +30,4 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 	}
 
 });
-angular.module("proteo.ui.filter-contact", []).filter('searchContact-filter', function(){
-
-});
+/* Todo Filter */
