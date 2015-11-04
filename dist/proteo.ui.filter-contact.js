@@ -1,3 +1,4 @@
+angular.module("proteo.ui.filter-contact", []);
 angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
 
 		console.log("that is of Controller of Filter");
@@ -29,14 +30,6 @@ angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  
 	}
 
 });
-
-// $scope.gridOptions.api.refreshView()
 angular.module("proteo.ui.filter-contact", []).filter('searchContact-filter', function(){
 
 });
-/*angular.module("proteo.ui.filter-contact", []).controller("filterContactCtrl",  function($scope) {
-
-		console.log("that is of Controller of Filter");
-		$scope.filter={};
-
-});*/
