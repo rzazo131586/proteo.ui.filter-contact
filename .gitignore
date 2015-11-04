@@ -1,4 +1,4 @@
-node_modules/
-.sass-cache/
-src/
-test/
+node_modules
+.sass-cache
+src
+test
